@@ -1,4 +1,4 @@
-FROM rust:1.80-slim as builder
+FROM rust:1.90-slim as builder
 WORKDIR /src
 # Copy manifest first for cached dependency build
 COPY Cargo.toml ./
